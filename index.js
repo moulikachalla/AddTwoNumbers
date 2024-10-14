@@ -7,7 +7,7 @@ app.get('/add', (req, res) => {
     const num1 = parseFloat(req.query.num1);
     const num2 = parseFloat(req.query.num2);
     const sum = num1 + num2;
-    res.send(`Sum is ${sum}`);
+    res.send(`Sum is ${sum}`); //comment
 });
 
 // POST method
